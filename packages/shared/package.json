@@ -1,0 +1,10 @@
+{
+  "name": "@dtw/shared",
+  "type": "module",
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@dtw/builder": "workspace:*"
+  }
+}

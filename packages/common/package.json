@@ -1,0 +1,17 @@
+{
+  "name": "@dtw/common",
+  "type": "module",
+  "scripts": {
+    "build": "vite build"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./*": [
+      "./dist/*/index.js",
+      "./dist/*.js"
+    ]
+  },
+  "dependencies": {
+    "@dtw/builder": "workspace:*"
+  }
+}

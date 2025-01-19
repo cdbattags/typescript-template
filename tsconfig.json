@@ -1,0 +1,17 @@
+{
+  "extends": "@dtw/builder/tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "${configDir}/dist",
+    "baseUrl": ".",
+    "paths": {
+      "@dtw/shared": [
+        "./packages/shared/src",
+      ],
+      "@dtw/shared/*": [
+        "./packages/shared/src/*",
+      ],
+    },
+  },
+  "include": ["./**/*.ts"],
+}
